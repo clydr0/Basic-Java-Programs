@@ -21,9 +21,9 @@ class Banking{
 		accno = scan.nextInt();
 		System.out.println("enter acc type :");
 		acc_type = scan.nextLine();
+		acc_type = scan.nextLine();
 		System.out.println("enter amount :");
 		amnt = scan.nextInt();
-		quit = false;
 	}
 
 	void deposit(){
@@ -46,7 +46,7 @@ class Banking{
 	void display(){
 		System.out.println("enter acc number :");
 		accno = scan.nextInt();
-		System.out.println(":"+accno+" : : "+acc_type+" : : "+depo_name+" : : "+bal+":");
+		System.out.println(":"+accno+" \t "+acc_type+" \t  "+depo_name+" \t "+bal+":");
 	}
 
 }
@@ -54,14 +54,13 @@ public class Bank{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		Banking b1 = new Banking("joshua",100,"saving",2000);
-		//Banking b2 = new Banking();
+		boolean quit = false;
+		while(quit!=true){
 		System.out.println("Enter your choice :");
-		System.out.println("1. Create Account \n2. Deposite \n3.Withdrawn \n4. Display");
-		
+		System.out.println("1. Create Account \t2. Deposite \t3. Withdrawn \t4. Display \t5. EXIT");
+			
 		int x;
 		x=scan.nextInt();
-		boolean quit = false;
-		//do{
 		switch(x){
 			case 1:
 				b1.createaccnt();
@@ -82,8 +81,6 @@ public class Bank{
 				System.out.println("Invalid");
 				break;
 		}
-		//}while(!quit);
-	
+		}
 	}
 }
-
