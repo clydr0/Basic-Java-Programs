@@ -8,7 +8,7 @@ just the basic java programs taught in cs
 - > ~~Matrix multiplication~~ ✅
 - > ~~Sorting~~ ✅
 - > ~~Banking~~ ✅
-- Employee
+- > ~~Employee~~ ✅
 - > ~~Method overloading~~ ✅
-
+- > ~~Inheritance using Employee~~ ✅
 
