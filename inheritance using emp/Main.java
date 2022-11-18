@@ -38,9 +38,9 @@ public class Main{
 		emplo1.dprt=scan.nextLine();
 
 		emplo1.sal=scan.nextInt();
- 		
+ 		int t=i+1;
 		System.out.println("\t\tDetails of employee : Employee age Employee name  Employee id Employee dprt Employee sal");
-		System.out.println("\t\tDetails of employee "+ n+1 +"  is : "+ emplo1.age +" "+ emplo1.name+" "+ emplo1.emp_id+" "+ emplo1.dprt+" "+ emplo1.sal+"\n\n");
+		System.out.println("\t\tDetails of employee "+ t +"  is : "+ emplo1.age +" "+ emplo1.name+" "+ emplo1.emp_id+" "+ emplo1.dprt+" "+ emplo1.sal+"\n\n");
 		
 
 		}
